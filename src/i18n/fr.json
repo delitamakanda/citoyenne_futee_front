@@ -1,0 +1,15 @@
+{
+  "hello": "Bonjour",
+  "welcome": "Bienvenue sur notre site",
+  "login": "Se connecter",
+  "register": "S'inscrire",
+  "forgotPassword": "Mot de passe oublié?",
+  "rememberMe": "Se souvenir de moi",
+  "resetPassword": "Réinitialiser le mot de passe",
+  "confirmPassword": "Confirmer le mot de passe",
+  "logout": "Se déconnecter",
+  "profile": "Profil",
+  "home": "Accueil",
+  "lesson": "Lessons",
+  "contact": "Contact"
+}
