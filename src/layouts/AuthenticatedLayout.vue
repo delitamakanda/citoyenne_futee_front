@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from '@/components/layout/Header.vue'
+import Footer from "@/components/layout/Footer.vue";
 
 </script>
 
@@ -9,6 +10,7 @@ import Header from '@/components/layout/Header.vue'
     <main class="p-6 max-w-4xl mx-auto">
       <slot></slot>
     </main>
+    <Footer />
   </div>
 </template>
 
