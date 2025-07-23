@@ -1,13 +1,17 @@
 <script setup lang="ts">
-
+import Header from '@/components/layout/Header.vue'
 </script>
 
 <template>
-    <div class="min-h-screen bg-sky-50 flex flex-col items-center justify-center text-center">
-      <nav class="absolute top-0 left-0 w-full p-4 flex justify-between bg-white shadow">
-        <RouterLink to="/" class="font-bold text-lg">Citoyen·ne & Futé·e</RouterLink>
-        <RouterLink to="/login" class="text-blue-600 font-medium">Se connecter</RouterLink>
-      </nav>
+    <div class="min-h-screen bg-sky-50">
+      <Header>
+      <template #actions>
+        <div class="spacer-y-4">
+          <RouterLink to="/login" class="hover:underline mr-3" active-class="text-blue-600 font-bold">{{ $t('login') }}</RouterLink>
+          <RouterLink to="/register" class="hover:underline" active-class="text-blue-600 font-bold">{{ $t('register') }}</RouterLink>
+        </div>
+      </template>
+      </Header>
       <main class="mt-24 w-full max-w-md px-4">
         <slot></slot>
       </main>
