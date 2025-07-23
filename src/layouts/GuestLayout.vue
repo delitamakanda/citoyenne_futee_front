@@ -13,7 +13,7 @@ import Footer from '@/components/layout/Footer.vue'
         </div>
       </template>
       </Header>
-      <main class="mt-24 w-full max-w-md px-4">
+      <main class="mt-24 w-full px-4">
         <slot></slot>
       </main>
       <Footer />

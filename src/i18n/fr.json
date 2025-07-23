@@ -13,5 +13,11 @@
   "lesson": "Lessons",
   "contact": "Contact",
   "baseline": "Plateforme dédiée à l'engagement citoyen et à l'information politique.",
-  "footer": "Citoyen·ne & Futé·e. Tous droits réservés."
+  "footer": "Citoyen·ne & Futé·e. Tous droits réservés.",
+  "404": {
+    "title": "Page non trouvée",
+    "message": "Nous sommes désolés, mais la page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "goBack": "Aller à la page précédente"
+  }
 }
